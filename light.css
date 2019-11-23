@@ -1,0 +1,670 @@
+.first-col {
+  width: 630px;
+  /*flex-shrink: 0;*/
+  min-width: 0;
+}
+.second-col {
+  width: 290px;
+  margin-left: 20px;
+}
+.pokedex {
+    /*color: #a1a1ef;*/
+    color: #8c8cae;
+    font-size: 16px;
+}
+.pokeval {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.pokeworld {
+    line-height: 1.8;
+}
+
+
+
+/*list with titles*/
+.card-name {
+    /*font-weight: bold;*/
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+
+
+line-height: 17px;
+white-space: normal;
+word-wrap: break-word;
+/*word-break: break-all;*/
+/*word-break: break-word;*/
+
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+}
+
+h1 {
+    margin: 0;
+}
+.section-list-wrapper {
+    margin-bottom: 2.5rem;
+}
+.heading-wrapper {
+    margin-bottom: 1rem;
+}
+.secondary-header {
+   /* margin-top: 0.75rem;*/
+    margin-top: 0.25rem;
+    color: #8a8a8a;
+    font-size: 1.125rem;
+}
+
+.heading-primary {
+  font-size: 18px;
+}
+
+.tm {
+     display: -webkit-flex;
+     margin-bottom: 1.5rem;
+     display: -moz-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-flex-flow: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+     -ms-flex-flow: column;
+     flex-flow: column;
+     position: relative;
+     margin-bottom: .2rem;
+}
+ .b {
+     position: relative;
+     /*margin-bottom: 0.75rem;*/
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-color: #e8e8e8;
+     overflow: hidden;
+}
+ .b::before {
+     content: '';
+     display: block;
+     width: 100%;
+     /*padding-top: 71.4285714286%;*/
+     padding-top: 100%;
+}
+
+ .bbq {
+     position: relative;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-color: #e8e8e8;
+     overflow: hidden;
+}
+ .bbq::before {
+     content: '';
+     display: block;
+     width: 100%;
+     padding-top: 100%;
+}
+
+.ship-wrap {
+  margin-bottom: 28px;
+  font-size: 14px;
+}
+
+.ship-info {
+  padding: 0;
+  margin-left: 16px;
+  list-style-type: disc;
+}
+.ship-info li {
+  margin-bottom: 8px;
+}
+
+.sg {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding: 0;
+  margin-bottom: 28px;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.l {
+    -webkit-flex: 0 0 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 10rem;
+    margin-right: 10px;
+    margin-bottom: 24px;
+
+}
+
+.lo {
+  flex: 1 0 0;
+min-width: 120px;
+max-width: 145px;
+margin: .75rem;
+/*box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);*/
+box-sizing: border-box;
+}
+.my {
+  box-sizing: border-box;
+  display: flex;
+flex-wrap: wrap;
+margin: -.75rem -.75rem;
+padding: 0;
+}
+
+/* end list with titles MORE IN MEDIA QUERIES AT BOTTOM*/
+
+
+    html {
+        background: white;
+    }
+    body {
+        font-family: Arial;
+        font-size: 14px;
+        /* why steam use 1.7 is it more readable?*/
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+       /* max-width: 1157px;
+        margin: 0 auto;*/
+        color: #333333;
+        background: rgb(248, 248, 248) none repeat scroll 0% 0%;
+    }
+    .prox {
+
+    }
+    .eks {
+        max-width: 630px;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-top: 25px;
+       /* display: flex;*/
+    }
+    .limit-banner-height {
+        max-height: 300px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    .header {
+        height: 40px; /*bc doesnt set this, content auto makes it 75px size, when i have bigger content i remove this or adjust it*/
+        /*background-color: #ffffff;*/
+        /*box-shadow: 0 0.0625rem 0 0 rgba(0,0,0,0.1);*/
+        margin-left: auto;
+        margin-right: auto;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        flex-flow: row wrap;
+        background-color: #1b2838;
+        align-items: center;
+        background: rgba( 62, 126, 167, 0.8);
+        /*box-shadow: 0 0 3px rgba( 0, 0, 0, 0.4);*/
+       /* margin-bottom: 12px;*/
+   /*     border-left: 1px solid black;
+        border-right: 1px solid black;*/
+        margin-top: 20px;
+        margin-bottom: 16px;
+        background-color: rgb(255, 207, 0);
+    }
+    .cen {
+        margin: 0 auto;
+        max-width: 940px;
+        position: relative;
+    /*    overflow: auto;*/
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    .gradient {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+.lll {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 1px solid #cccccc;
+    /*padding-bottom: 5px;*/
+    margin: 0 0 10px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-top: 2px;
+}
+.crisp-pixel {
+    /*image-rendering: -moz-crisp-edges;*/
+}
+.do {
+    width: 100px;
+/*    height: 95px;*/
+/*    max-width: 50%;*/
+    margin-right: 2px;
+/*float: left;*/
+padding: 10px;
+}
+
+/*dropdown*/
+nav {
+    font-size: 18px;
+}
+.nav-list {
+/*  background: darkorange;*/
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.menu-item {
+  /*background: darkorange;*/
+    display: block;
+    float: left;
+    padding-right: 20px;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+/*  color: #d9dadd;*/
+  font-size: 15px;
+/*  text-shadow: -1px -1px 0px rgba( 0, 0, 0, 0.25 );*/
+  z-index: 2;
+  font-weight: bold;
+}
+
+.menu-item:hover,
+.menu-item:focus-within {
+ /*   color: white;*/
+    /*background: red;*/
+    cursor: pointer;
+}
+.mg {
+  display: flex;
+-moz-box-align: center;
+align-items: center;
+-moz-box-pack: center;
+justify-content: center;
+cursor: pointer;
+padding: 0.3125rem;
+transition: opacity 0.2s ease-in-out 0s;
+width: 100%;
+opacity: 0.6;
+pointer-events: none;
+}
+button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    cursor: pointer;
+}
+.menu-item:focus-within a {
+  outline: none;
+}
+
+.nav-list .menu-item .nav-list {
+   /* background: orange;*/
+    visibility: hidden;
+    background: white;
+  opacity: 0;
+/*  min-width: 5rem;*/
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 8px;
+ /*   left: 0;*/
+  display: none;
+}
+
+.nav-list li:hover > .nav-list,
+.nav-list li:focus-within > .nav-list,
+.nav-list li .nav-list:hover,
+.nav-list li .nav-list:focus {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+
+.nav-list li .nav-list li {
+    clear: both;
+    width: 100%;
+}
+.dropdown {
+    box-shadow: 3px 3px 5px -3px #000;
+    padding: 12px;
+    padding-top: 0;
+    min-width: 70px;
+}
+.cc {
+    padding: 0;
+    /*padding: 5px 12px; dont know why menu cant see padding of child*/
+}
+/*end dropdown*/
+
+
+.main {
+display: flex;
+position: relative;
+flex-flow: row;
+align-items: flex-start;
+margin-bottom: 40px;
+background: linear-gradient(to right, #f8f8f8 0%,rgb(234, 234, 234) 97%);
+height: 450px;
+overflow: hidden;
+}
+.text-main {
+    display: flex;
+    flex: 1;
+    flex-flow: column;
+    width: 460px;
+    padding-left: 22px;
+}
+.v-gallery {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  -moz-box-align: center;
+  align-items: center;
+  -moz-box-pack: start;
+  justify-content: flex-start;
+  height: 100%;
+  opacity: 1;
+}
+.b-arrow {
+  width: 1.125rem;
+height: 1.125rem;
+color: rgb(44, 44, 44);
+opacity: 0.75;
+}
+.b-up {
+  transform: rotate(-90deg);
+}
+.b-down {
+  transform: rotate(90deg);
+}
+.v-img {
+  display: inline-flex;
+  flex-direction: column;
+  -moz-box-align: center;
+  align-items: center;
+  list-style-type: none;
+  transition: transform 0.2s ease-in-out 0s;
+}
+.v-li {
+  height: auto;
+  padding: 2px 2px 0.75rem;
+}
+.bmson {
+  width: 4.0625rem;
+height: 2.8125rem;
+display: block;
+position: relative;
+z-index: 3;
+cursor: pointer;
+box-shadow: rgb(224, 224, 224) 0px 0px 0px 1px;
+transition: box-shadow 0.2s linear 0s;
+padding: 0;
+}
+.son {
+  height: 100%;
+width: 100%;
+object-fit: cover;
+}
+
+.foreword {
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.x {
+    margin-bottom: 2px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.genre {
+    margin-bottom: 0.75rem;
+    color: #8a8a8a;
+    font-size: 16px;
+}
+.bb {
+    margin-left: 16px;
+}
+.window {
+    order: 0;
+    margin: 0 20px;
+    background: white;
+}
+
+.rex {
+    border-bottom: 1px solid #acb2b8;
+}
+td {
+    padding: 3px 0px 3px 0px;
+    font-size: 14px;
+   /* border-bottom: 1px solid black;*/
+}
+.two-col {
+    display: flex;
+    image-rendering: auto;
+    position: relative;
+    max-width: 940px;
+    margin: 0 auto;
+}
+.xo {
+ /*   border: 1px solid #ccc;*/
+    align-self: baseline;
+    padding: 16px;
+    margin-bottom: 16px;
+    background: white;
+}
+.td-tick {
+    text-align: center;
+    font-weight: bold;
+    color: #67c1f5;
+}
+
+
+    .uu {
+        margin: 0;
+padding: 0;
+list-style-type: none;
+display: flex;
+-moz-box-orient: horizontal;
+-moz-box-direction: normal;
+flex-flow: row wrap;
+    }
+    .lee {
+      flex: 1;
+      margin-right: 0.75rem;
+    }
+    .s {
+position: relative;
+margin-bottom: 0.5rem;
+background-position: center;
+/*background-size: cover; battlecomics uses cover, but their img are standard size even with whitespace*/
+background-size: cover;/*contain;*/
+background-repeat: no-repeat; /* wouldnt need if using cover */
+    }
+    .s::before {
+        content: '';
+display: block;
+width: 100%;
+padding-top: 100%;
+    }
+    .related {
+        /*border: 1px solid #ccc;*/
+     /*   padding: 16px;*/
+        margin-bottom: 16px;
+    }
+.namet {
+    display: flex;
+   /* height: 3.2em;*/
+   /* margin-bottom: 0.5rem;*/
+    overflow: hidden;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-align: center;
+    display: block; /*  no reason for it to be  span?*/
+    /*white-space: nowrap;*/
+    text-overflow: ellipsis;
+}
+    
+
+.shadow {
+    margin: 0 auto;
+    max-width: 940px;
+    position: relative;
+}
+.mankey {
+    margin: 0;
+    padding: 0;
+}
+
+.page-frame {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+/*moved from tagtable.css*/
+img.category_icon {
+    width: 26px;
+    height: 16px;
+    vertical-align: top;
+    /* this is just temporaryh make icon black for white theme, would actually use different black icon or */
+    filter: brightness(10%); 
+}
+
+.wrap-all {
+  width: 944px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*list with titles media queries*/
+
+@media screen and (min-width: 64rem) {
+    .style {
+-webkit-flex-flow: row wrap;
+
+-moz-box-orient: horizontal;
+
+-moz-box-direction: normal;
+
+-ms-flex-flow: row wrap;
+
+flex-flow: row wrap;
+    }
+}
+
+
+@media screen and (min-width: 64rem) {
+    .l {
+  /*  width: -webkit-calc(20% - 1.2rem);
+    width: -moz-calc(20% - 1.2rem);
+    width: calc(20% - 1.2rem);*/
+    /*width: calc(33% - .8rem);*/
+    /*margin-right: 1.5rem;*/
+    /*margin-right: 20px;*/
+    }
+
+
+
+
+    /*NEW*/
+    .card-name {
+        font-size: 13px;
+        font-weight: bold;
+   /* font-size: 1.125rem;*
+    }   
+}
+
+
+/*.l:nth-child(5n) {
+    margin-right: 0;
+}
+*/
+}
+}
+.eno {
+  padding-right: 10px;
+  min-width: 40%;
+}
+
+
+@media screen and (max-width: 660px) {
+  .wrap-all {
+    max-width: 940px;
+    width: auto;
+    margin: 0 2%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+    .main {
+      flex-flow: column;
+     /* overflow: auto;*/
+      height: auto;
+    }
+    /*.two-col {
+      flex-flow: column;
+    }*/
+    .second-col {
+      display: none;
+    }
+
+    .text-main {
+      width: auto;
+      padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+  .main .csslider > ul {
+    width: auto !important;
+  }
+  #slider1 {
+    flex-basis: 67%;
+    margin-right: 12px;
+  }
+    .wrap-all {
+    max-width: 940px;
+    width: auto;
+    margin: 0 2%;
+  }
+   .text-main {
+    flex-basis: 33%;
+      min-width: 0;
+      padding: 0;
+    }
+
+    .eno {
+      padding-right: 20px;
+    }
+
+    .pokedex {
+      font-size: 14px;
+    }
+    .pokeval {
+      font-size: 18px;
+    }
+}
